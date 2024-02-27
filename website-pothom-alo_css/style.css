@@ -1,0 +1,143 @@
+img{
+    width: 100%;
+    max-width: 350px;
+    max-height: 350px;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header style*/
+#header-area{
+    padding: 30px 0;
+    text-align: center;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-left: 5%;
+}
+#header-area img{
+    width: 230px;
+}
+/*main menu -nav*/
+#main-menu{
+    border-bottom: 2px solid #919090;
+    width: max(100%,800px);
+}
+#main-menu ul{
+    list-style: none;
+}
+#main-menu ul li{
+    display: inline-block;
+    padding: 10px 6px;
+}
+#main-menu ul li a{
+    text-decoration: none;
+    color: rgba(11, 11, 11, 0.747);
+    font-weight: bold;
+    font-size: 14px;
+}
+#main-menu ul li a:hover{
+    color: #0573E6;
+}
+/*section style*/
+#content{
+    width:100% ;
+    padding:0 10px;
+    margin-top: 30px;
+    padding-bottom:20px ;
+    overflow: hidden;
+    border-bottom: 2px solid #919090;
+}
+#perent-content{
+    width: 70%;
+    padding-right: 10px;
+    border-right: 2px solid #919090;
+    float: left;
+}
+.child-content {
+    padding-bottom: 20px;
+    border-bottom:1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 5px;
+    width: 33%; 
+    float: left;
+}
+.child-content h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.child-content h2 a:hover{
+    color: blue;
+}
+.child-content a{
+    color: black;
+    text-decoration: none;
+}
+.child-content p{
+    font-size: 13px;
+}
+.child-content:nth-child(2){
+    width: 66%;
+}
+.child-content:nth-child(2) img{
+    float: right;
+}
+/*side ber style*/
+#main-sideber{
+    width: 30%;
+    float: right;
+
+}
+#main-sideber .child-sidebar{
+    margin: 20px 0;
+}
+#main-sideber .child-sidebar h2{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#main-sideber .child-sidebar h2 a:hover{
+    color: blue;
+}
+#main-sideber .child-sidebar a{
+    color: black;
+    text-decoration: none;
+}
+#main-sideber .child-sidebar p{
+    font-size: 13px;
+}
+#content, #main-sideber img{
+    float: right;
+}
+
+/*footer area*/
+#footer-area{
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+#footer-area img{
+    width: 180px;
+}
+.footer-nav{
+
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-nav ul li{
+    display: inline-block;
+    padding: 8px 8px;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: rgba(11, 11, 11, 0.747);
+    font-size: 15px;
+}
+.footer-nav ul li a:hover{
+    color: #0573E6;
+}

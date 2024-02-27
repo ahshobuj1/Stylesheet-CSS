@@ -1,0 +1,101 @@
+:root{
+    --commonColor:blanchedalmond;
+    --textColor: black;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#content-area{
+    background: rgba(215, 13, 13, 0.648);
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.title{
+    background-color: var(--commonColor);
+    text-align: center;
+    padding: 20px;
+    margin: 1%;
+    margin-bottom: 20px;
+}
+.title h1{
+    margin: 0;
+    color: var(--textColor);
+}
+/*perent area===========
+    flex-direction: column-reverse;  
+    flex-direction: row;
+    For Break item or setup how many content will be one line
+*/
+
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child-area{
+    flex-basis: 28%;
+    background: #0aa30ada;
+    color: #f0f8ffc9;
+    padding: 10px;
+    margin: 1%;
+}
+.child-area a{
+    background: var(--commonColor);
+    color:var(--textColor) ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: 1s;
+}
+.child-area a:hover{
+    background: aqua;
+}
+.extra{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    background: aqua;
+    
+    align-items: center;
+}
+.extra3{
+    align-content: space-around;
+    justify-content: space-evenly;
+
+}
+.extra3 .child-area{
+    background: rgb(30, 11, 206);
+}
+.extra4{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    background: aqua;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.allproparty{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: wrap column;
+    flex-basis: 30%;
+    flex-grow: 2;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}

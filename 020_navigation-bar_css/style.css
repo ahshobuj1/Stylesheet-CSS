@@ -1,0 +1,164 @@
+
+.topnav{
+    background: #333333;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    padding: 14px 16px;
+    color: #f2f2f2;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    color: black;
+    background: #ddd;
+}
+
+.topnav a.active{
+    background: #4d4d4d;
+    color: white;
+}
+
+            /*2nd Drop Down Navigation bar*/
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    left: 100px;
+    margin: 50px auto;
+}
+
+.dropbtn{
+    background: rgb(222, 30, 30);
+    color: white;
+    font-size: 17px;
+    padding: 16px;
+    display: inline-block;
+    width: 100px;
+    border: none   ;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background:#f2ebeb ;
+    font-size: 16px;
+    z-index: 1;
+    width: 100%;
+    overflow: auto;
+}
+
+.dropdown-content a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background: #ddd;
+    color: hwb(0 6% 94%);
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+            /*3rd Drop Down Navigation bar*/
+
+.dropdown3rd{
+    position: relative;
+    display: inline-block;
+    top: 250px;
+}
+
+.dropbtn3{
+    background: #32ff7e;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    width: 110px;
+}
+
+.dropdown3rd_content{
+    position: absolute;
+    display:none;
+    background:#d1d8e0;
+    font-size: 15px;
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown3rd_content a{
+    color: black;
+    display:block;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+.dropdown3rd_content a:hover{
+    background: #778ca3;
+    color: white;
+}
+
+.dropdown3rd:hover .dropdown3rd_content{
+    display: block;
+}
+
+.dropdown3rd:hover .dropbtn3{
+    background:#eb3b5a ;
+    color: white;
+}
+
+
+/*
+.dropbtn3{
+    background: #2d98da;
+    padding: 17px;
+    color: white;
+    width: 130px;
+    border: none;
+    font-size: 17px;
+}
+
+.dropdown3rd{
+    position: relative;
+    display: inline-block;
+    margin-top: 250px;
+}
+
+.dropdown3rd_content{
+    display: none;
+    position: absolute;
+    background:#a55eea ;
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown3rd_content a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.dropdown3rd_content a:hover{
+    background: #eb3b5a;
+}
+
+
+.dropdown3rd:hover .dropdown3rd_content{
+    display: block;
+}
+
+.dropdown3rd:hover .dropbtn3{
+    background: #a5b1c2;
+}
+*/
+
+
+/*Dropdown Menu inside a Navigation Bar*/

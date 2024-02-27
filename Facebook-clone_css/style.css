@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 720px;
+    padding-top: 72px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 40px;
+}
+.left_area{
+    flex-basis: 400px;
+}
+.left_area img{
+    height: 106px;
+    margin: 100px 0 -10px;
+    margin-left: -28px;
+}
+.left_area h2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #1c1e21;
+}
+.form_area{
+    flex-basis: 400px;
+    text-align: center;
+    padding: 70px 0;
+    margin-right: 15px;
+}
+.parent_form{
+    background: #fff;
+    padding: 12px 10px;
+    border-radius: 8px;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.form_area input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 360px;
+    margin: 6px auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #1d2129;
+}
+.form_area input[type='button']{
+    background: #1877f2;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.form_area button{
+    background: #42b72a;
+    font-size: 17px;
+    padding: 14px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #42b72a;
+    border-radius: 6px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.form_area p{
+    font-size: 15px;
+    color: #1d2129;
+    padding: 5px 0 16px;
+}
+.form_area p a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #1c1e21;
+    font-weight: bold;
+    text-decoration: none;
+}
+.form_area p a:hover{
+    text-decoration: underline;
+}
+
+.form_area .last_area{
+    margin-top: 28px;
+}
+
+/*Fopter area*/
+.footer_container{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px;
+}
+#footer_area{
+    padding: 20px 0;
+}
+#footer_area .language{
+    padding: 10px 0;
+}
+#footer_area .ulitem ul{
+    list-style: none;
+}
+#footer_area .ulitem ul li{
+    display: inline-block;
+    padding: 2px;
+    padding-right: 10px;
+}
+#footer_area .ulitem ul li a{
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+}
+#footer_area .ulitem ul li a:hover{
+    text-decoration: underline;
+}
+#footer_area .option{
+    padding: 10px 0;
+}
+#footer_area p{
+    padding-top: 15px ;
+    color: #737373;
+    font-size: 12px;
+}

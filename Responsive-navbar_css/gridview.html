@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .header_area{
+            background: coral;
+            text-align: center;
+            padding: 10px;
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+        }
+        h1{
+            color: aliceblue ;
+            font-size: 2.5 rem;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+        .row{
+            display: grid;
+            grid-template-columns: 2fr 7fr 3fr;
+            background: #40868b;
+        }
+        .column1 {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            background: aqua;
+        }
+        .column1 a:hover{
+            background: rgb(203, 43, 168);
+            border-radius: 6px;
+        }
+        .column2{
+            background: greenyellow;
+            padding: 10px;
+        }
+
+        .column3{
+            background: rgb(255, 47, 203);
+            padding: 10px;
+        }
+        .footer{
+            background: #00000095;
+            border-radius: 2px;
+            text-align: center;
+            padding: 1px;
+        }
+        .footer p{
+            color: rgba(240, 248, 255, 0.957);
+            font-size: 0.7rem;
+        }
+
+        /* Responsive for Tablet */
+        @media screen and (max-width: 700px){
+            .row{
+                grid-template-columns: 1fr;
+            }
+            .column1 a {
+                text-align: center;
+            }
+        }
+
+        /* Responsive for mobaile */
+        @media screen and (max-width : 520px){
+            .row{
+                grid-template-columns: 1fr;
+            }
+            body{
+                width: 96%;
+                margin: 0 auto;
+            }
+            .column1 a {
+                background: #00000095;
+                border-radius: 10px;
+                color: white ;
+            }
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <header class="header_area"><h1>A H Shobuj</h1></header>
+
+    <div class="row">
+
+        <div class="column1">
+            <a href="#">home</a>
+            <a href="#">skills</a>
+            <a href="#">contract</a>
+        </div>
+
+        <div class="column2">
+            <h2>I am a Frontend Web eveloper</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            Aperiam, quos? Deleniti, fugiat quam enim iusto voluptate <br><br>corporis ab odit officiis velit dolore hic quia delectus repellat praesentium neque sapiente natus vitae iste minus, at non perspiciatis doloremque consectetur sit! Adipisci ad blanditiis suscipit labore? Accusamus, libero, earum praesentium incidunt soluta modi quod laborum esse commodi molestiae explicabo numquam nam eveniet eos odit ipsa natus, perferendis ab obcaecati voluptatum! Autem corrupti dolorum eveniet non iste, alias doloribus ea cumque cupiditate repudiandae necessitatibus quod perferendis velit debitis. Eos aut nemo, earum aliquid debitis quisquam laborum esse, officiis, quam minima perspiciatis vitae et?</p>
+        </div>
+
+        <div class="column3">
+            <h2>What i do </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aut.</p>
+            <h2>What i do </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aut.</p>
+            <h2>What i do </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aut.</p>
+            <h2>What i do </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aut.</p>
+        </div> 
+    </div>
+
+    <div class="footer">
+        <p>&copy; stay with shobuj | develop your site </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="contact-page">
+
+        <h1>Level up your band</h1>
+        <p>You can reach us anytime via :<a href="#" target="_blank">ahshobuj11@gmail.com</a></p>
+
+    <form action="#">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="" placeholder="Your name">
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="" placeholder="Your email">
+            </div>
+            <div>
+                <label for="number">Phone Number</label><br>
+                <input type="number" id="number" name="" placeholder="Your number">
+
+                <label for="country"></label>
+                    <select name="country" id="country">
+                        <option value="bangladesh">BD</option>
+                        <option value="pakistan">PK</option>
+                        <option value="denmark">DK</option>
+                        <option value="spain">ESP</option>
+                        <option value="suadi arab">KSA</option>
+                        <option value="englad">ENG</option>
+                        <option value="argentina">ARG</option>
+                        <option value="new zealand">NZ</option>
+                        <option value="australia">AUS</option>
+                        <option value="south africa">SA</option>
+                        <option value="china">CN</option>
+                        <option value="soth korea">ROK</option>
+                        <option value="italy">IT</option>
+                    </select>
+            </div>
+            <div>
+                <label for="massage">How can we help</label><br>
+                <textarea name="" id="massage" placeholder="Tell us a little about the project..."></textarea>
+            </div>
+            <div class="check-design">
+                <h4><u>Services :</u></h4>
+                <input type="checkbox" id="design">
+                <label for="design" class="check-style">Website design</label>
+                <input type="checkbox" id="content">
+                <label for="content" class="check-style">Content creation</label><br>
+
+                <input type="checkbox" id="ux">
+                <label for="ux" class="check-style">Ux design</label>
+                <input type="checkbox" id="consulting">
+                <label for="consulting" class="check-style">strategy & consulting </label><br>
+
+                <input type="checkbox" id="research">
+                <label for="research" class="check-style">User research</label>
+                <input type="checkbox" id="other">
+                <label for="other" class="check-style">Other</label><br>
+            </div>
+            <div>
+                <input type="submit" value="Send Massage">
+            </div>
+    </form>
+</div>
+</body>
+</html>

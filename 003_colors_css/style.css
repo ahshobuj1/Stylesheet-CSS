@@ -1,0 +1,26 @@
+
+body {
+    background: url(shobuj.jpg);
+}
+
+
+h1{ 
+    color: rgb(15, 228, 15);
+    text-align: center;
+}
+
+.perents{
+    color: rgb(234, 13, 212);
+    color: aqua ;
+    color: burlywood;
+    color: #13f8d2;
+    color: black;
+    color: #09ef24;
+    color: rgb(234, 13, 212);
+    
+    
+}
+
+.secend{
+    color  :rgba(234, 13, 212, 0.444);
+}

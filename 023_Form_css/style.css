@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#contact-page{
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 0 1%;
+}
+#contact-page h1{
+    padding: 5px 0;
+
+}
+#contact-page p{
+    color: rgba(0, 0, 0, 0.648);    
+    padding-bottom: 20px;
+}
+#contact-page a{
+    text-decoration: none;
+    color: blueviolet;
+}
+#contact-page input , textarea{
+    width: 96%;
+    padding:1% 1%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#contact-page label{
+    color: rgba(0, 0, 0, 0.648);
+}
+#contact-page textarea{
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+}
+h4{
+    padding:5px 15px;
+}
+#contact-page input[type='checkbox']{
+    width: 10%;
+}
+#contact-page label[class="check-style"]{
+    width: 38%;
+    display: inline-block;
+}
+
+#contact-page input[type="submit"]{
+    background: blueviolet;
+    color: white;
+    border: none;
+    width: 70%;
+    margin: 7px auto;
+    height: 30px;
+    display: block;
+}

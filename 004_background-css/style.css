@@ -1,0 +1,35 @@
+body{
+    background: url(flower-modified.png);
+    background-position:top center ;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.perents p {
+
+    background-image: url(shobuj1.jpg);
+    background-position: top center;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    padding-left: 15px;
+    padding-top: 50px;
+
+    color: rgb(212, 8, 8);
+    color: rgba(196, 12, 12, 0.274);
+    height: 300px;
+
+
+/* Shorthand version
+background: rgba(227, 7, 7, 0.338) no-repeat center url(shobuj1.jpg) ;
+*/
+}
+
+
+
+.secend p{
+    color: rgb(19, 238, 8);
+    color: rgba(53, 238, 16, 0.455);
+}

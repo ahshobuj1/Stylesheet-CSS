@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .navbar{
+            display: flex;  
+            justify-content: flex-end;
+            background: aqua;
+        }
+        .navbar a{
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: black;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        .navbar a:hover{
+            background: #d8500cb9;
+        }
+        
+        @media screen and (max-width: 600px){
+            .navbar{
+                flex-direction: column;
+                padding: 10px;
+            }
+            .navbar a{
+                text-align: center;
+                background-color: rgb(14, 189, 14);
+                margin: 10px;
+                color: aliceblue;
+                border-radius: 6px;
+            }
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">home</a>
+        <a href="#">skills</a>
+        <a href="#">about me</a>
+        <a href="#">contract</a>
+        <a href="#">crouse</a>
+        <a href="#">more</a>
+    </div>
+</body>
+</html>

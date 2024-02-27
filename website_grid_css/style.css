@@ -1,0 +1,160 @@
+img{
+    width: 100%;
+    max-width: 350px;
+    max-height: 350px;
+}
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header style*/
+#header-area{
+    padding: 30px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-left: 5%;
+}
+#header-area img{
+    width: 230px;
+}
+/*main menu -nav*/
+#main-menu{
+    text-align: center;
+}
+#main-menu ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;    
+    border-bottom: 2px solid #919090;
+    padding:0 4% ;
+}
+#main-menu ul li{
+    padding: 5px 1%;
+    flex-basis: 70px;
+}
+#main-menu ul li a{
+    text-decoration: none;
+    color: rgba(11, 11, 11, 0.747);
+    font-weight: bold;
+    font-size: 14px;
+}
+#main-menu ul li a:hover{
+    color: #0573E6;
+}
+/*section style*/
+#content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    padding:10px;
+    margin-top: 30px;
+    padding-bottom:20px ;
+    border-bottom: 2px solid #919090;
+}
+.perent-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+
+    border-right: 2px solid #919090;
+}
+.child-content:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.child-content:nth-child(1) img{
+    width: 70%;
+}
+.child-content {
+    border-bottom:1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 5px;
+    margin:5px;
+}
+.child-content h2{
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom:5px ;
+}
+.child-content h2 a:hover{
+    color: blue;
+}
+.child-content a{
+    color: black;
+    text-decoration: none;
+}
+.child-content p{
+    font-size: 13px;
+}
+
+/*side ber style*/
+.main-sideber{
+    display: grid;
+    grid-template-columns: auto;
+    align-content: space-between;
+}
+.main-sideber .child-sidebar{
+    margin: 8px;
+}
+.main-sideber .child-sidebar h2{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main-sideber .child-sidebar h2 a:hover{
+    color: blue;
+}
+.main-sideber .child-sidebar a{
+    color: black;
+    text-decoration: none;
+}
+.main-sideber .child-sidebar p{
+    font-size: 13px;
+}
+
+/*footer area*/
+#footer-area{
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+#footer-area img{
+    width: 180px;
+}
+.footer-nav{
+    text-align: center;
+}
+/*.footer-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer-nav ul li{
+    flex-basis: 110px;
+    padding: 5px 0;
+}*/
+.footer-nav ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    list-style: none;
+}
+.footer-nav ul li{
+    padding: 5px 0;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: rgba(11, 11, 11, 0.747);
+    font-size: 14px;
+
+}
+.footer-nav ul li a:hover{
+    color: #0573E6;
+}

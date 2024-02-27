@@ -1,0 +1,42 @@
+h1{
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: hidden;
+    border-style: inherit;
+    border-style: initial;
+    border-style: inset;
+    border-width: 40px;
+    border-color: aqua;
+    border-radius: 40px;
+}
+
+h2{
+    border-style: outset;
+    border-style: ridge;
+    border-width: 40px;
+    border-color: aquamarine;
+    border-radius: 20px;
+
+    /*shorthand 
+    border: solid 20px aqua;
+    */
+}
+
+h3{
+    border-style: solid;
+    border-width: 10px ;
+    border-color: rgb(10, 242, 37);
+}
+
+h4{
+    border-style: double;
+    border-color: blueviolet;
+    border-width: 10px;
+
+    border-top: 10px outset rgb(7, 245, 245) ;
+    border-bottom: dashed 5px #49e316;
+    border-left: solid 10px #0000ff;
+    border-right: solid 5px #d70faf;
+}

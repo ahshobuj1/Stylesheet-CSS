@@ -1,0 +1,108 @@
+
+/*==================
+image design
+===================*/
+
+#hero_area{
+    background-image: url(shobuj.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding: 100px 20px;
+    font-style: italic;
+    position: relative;
+    z-index: 2;
+}
+
+
+#hero_area h2{
+    color: aliceblue;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+#hero_area p{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+#hero_area a{
+    color: rgb(220, 218, 218);
+    background: red;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#hero_area a:hover{
+    background-color: rgb(45, 197, 31);
+}
+
+
+#hero_area .bg {
+    background-color: rgba(0, 0, 0, 0.403);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+/*==================
+Z-Index
+===================*/
+
+#main{
+    background: aquamarine;
+    width: 100%;
+    height: 300px;
+
+    position: relative;
+}
+
+.child1{
+    background: rgb(25, 178, 216);
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -25px;
+
+    z-index: 2;
+}
+
+.child2{
+    background: rgb(136, 60, 60);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -50px;
+
+    z-index: 1;
+}
+
+.child3{
+    background: rgb(7, 211, 20);
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -100px;
+}

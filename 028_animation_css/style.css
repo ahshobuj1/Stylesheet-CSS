@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#parent{
+    width: 400px;
+    height: 400px;
+    background:#34495e ;
+    position: relative;
+    margin: 30px auto;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background: #2ecc71; border-radius: 50%;
+    position: absolute;
+
+    animation-name: circles;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+/*@keyframes circles{
+    from{
+        left: 0;
+        top: 0;
+    }
+    to{
+        bottom: 0;
+        right: 0;
+    }
+}*/
+@keyframes circles{
+    0%{
+        left: 0;
+        top:30px;
+    }
+    25%{
+        left: 300px;
+        top: 0;
+    }
+    50%{
+        top: 300px;
+        right: 0;
+        background: aqua;
+    }
+    75%{
+        right: 380px;
+        bottom: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+
+.square{
+    margin: 80px auto;
+    width: 200px;
+    height: 200px;
+    background: aqua;
+
+    animation-name: square;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes square{
+    0%{
+        background: aqua;
+    }
+    25%{
+        background: rgb(193, 162, 5);
+        width: 300px;
+        height: 300px;
+    }
+    50%{
+        background-color: blue;
+        width: 250px;
+        height: 250px;
+
+    }
+    75%{
+        background-color: rgb(196, 23, 218);
+        width: 350px;
+        height: 350px;
+    }
+    100%{
+        background-color: rgb(58, 214, 11);
+        width: 200px;
+        height: 200px;
+    }
+}
+

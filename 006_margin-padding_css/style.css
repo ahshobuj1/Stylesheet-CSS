@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #c0c0c0;
+}
+
+.perents{
+    background: #00ff7f ;
+    color: black;
+    width: 450px;
+
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+    margin: 25px auto;
+
+}
+
+.child{
+    background: #f4beb6;
+    color: #262680;
+    width: 200px;
+
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+
+    margin: 30px auto;
+
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}

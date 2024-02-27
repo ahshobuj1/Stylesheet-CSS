@@ -1,0 +1,64 @@
+/* ==========================
+h1 => selector
+color => property
+red => value 
+ . => class
+ # => id
+ * => universal selector
+ , => group 
+ ===========================*/
+header{
+    background: #5ff8f6;
+}
+ h1{
+    text-align: center;
+ }
+
+ div{
+    height:200px;
+    width:200px;
+    background: #ccff00;
+}
+
+div p{
+    text-align: center;
+    background: #c560af;
+    color: aliceblue;
+}
+
+
+
+
+.first_div{
+    background: rgb(27, 172, 70);
+    width: 250px;  
+}
+.first_div p{
+    background: #b80505ec;
+    color: #ccff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.secend_div{
+    background: #c560af;
+    height: 250px;
+}
+.secend_div p{
+    color: black;
+    background: #ccff00;
+}
+
+
+#first_id{
+    background: #2cd9e9ef;
+}
+#first_id p{
+    background: #ef1cb3;
+}
+#first_id,
+.first_div,
+.secend_div{
+    width: 299px;
+}
+

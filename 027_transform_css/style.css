@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: green;
+    border: 5px solid black;
+
+    transform: translate(100px , 120px);
+    transform:rotate(40deg);
+    transform: skewX(30deg);
+    transform: skewY(30deg);
+    transform: scale(2,3);
+    transform: translate(100px , 120px);
+    transform: translate( -10px, 200px );
+}

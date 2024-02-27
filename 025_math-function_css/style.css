@@ -1,0 +1,15 @@
+div{
+    margin: 30px auto;
+    background: #1e7f2b;
+    color: aliceblue;
+    width: 90%;
+}
+#first-div{
+    width: calc(100% - 250px);
+}
+#secend-div{
+    width: max(60% , 500px);
+}
+#third-div{
+    width: min(60% , 500px);
+}

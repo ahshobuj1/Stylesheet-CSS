@@ -1,0 +1,38 @@
+
+table{
+    
+    margin: 10px auto;
+    background: rgb(14, 225, 236);
+}
+
+section{
+    width: 90%;
+    overflow: hidden;
+    overflow-x: scroll;  
+    overflow-x: auto;
+}
+
+caption{
+    font-size: 70px;
+    color: rgb(227, 26, 234);
+}
+
+table,tr,th,td{
+    border-collapse: collapse;
+    border: 3px solid hwb(257 0% 95% / 0.811);
+}
+
+th{
+    font-variant: small-caps; 
+    font-size: 30px;
+    background: rgb(207, 34, 7);
+
+
+}
+
+td{
+    font-variant-caps:all-small-caps;
+    background: rgb(18, 173, 18);
+    padding-left: 30px;
+
+}

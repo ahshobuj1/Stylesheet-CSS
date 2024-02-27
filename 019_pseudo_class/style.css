@@ -1,0 +1,45 @@
+/*=============================
+(:) one colon means pseudo Classs
+==============================*/
+    a:hover{
+        background-color: rgb(11, 194, 23)
+    }
+
+    .link{
+        text-align: center;
+        font-size: large;
+    }
+
+    li:first-child{
+        background-color: blue;
+    }
+
+    li:nth-child(2n+1){
+        background: green;
+    }
+
+    li:nth-child(2n+2){
+        background: aqua;
+    }
+    li{
+        list-style-type: none;
+    }
+
+
+/*=============================
+(::) Two colon means pseudo Elements
+==============================*/
+
+p::first-line{
+    background: rgb(195, 6, 6);
+    font-style: italic;
+    font-size: 20px;
+}
+
+p::first-letter{
+    font-size: 40px;
+}
+
+p::selection{
+    background-color: rgb(12, 183, 40);
+}

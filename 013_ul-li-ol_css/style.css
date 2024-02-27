@@ -1,0 +1,29 @@
+ul {
+    list-style-type: armenian;
+    list-style-type: circle;
+    list-style-type: disc;
+    list-style-type:upper-alpha;
+    list-style-type:lower-greek;
+    list-style-type:upper-roman;
+    list-style-type:decimal;
+
+    list-style-position: outside;
+    list-style-position: inside;
+
+    list-style-image: url();
+
+}
+
+ul {
+    background: rgb(9, 184, 228);
+    padding: 30px;
+
+    list-style-position: outside;
+    list-style-position: inside;
+}
+
+li {
+    background: rgb(9, 212, 26);
+    padding: 15px;
+    border-bottom: 1px solid black;
+}

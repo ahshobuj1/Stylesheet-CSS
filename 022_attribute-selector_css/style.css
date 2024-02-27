@@ -1,0 +1,91 @@
+/*====>important css gulu sobar niche
+<=====*/
+
+a{
+    color: aliceblue;
+    background: #191d1f;
+}
+
+a[target='_blank']{
+    background-color: blue;
+}
+a[target='_top']{
+    background-color: brown;
+}
+a[target]{
+    font-size: 30px;
+    margin: 20px;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+a[target~='_blank']{
+    background: #00cec9;
+}
+a[title]{
+    background:#0984e3 ;
+    font-size: 17px;
+}
+a[title~='shobuj']{
+    font-weight: bold;
+    background: #d63031;
+    text-decoration:none;
+}
+a[title='shobuj']{
+    font-weight: bold;
+    background: #09caec;
+    text-decoration: none;
+    font-size: 25px;
+}
+a[title~='a-h-shobuj']{
+    font-weight: bold;
+    background: #c92db7;
+}
+a[title~='a-shobuj']{
+    font-size: 40px;
+}
+a[title|='ah']{
+    background: #3fdc18;
+}
+a[title*='obu']{
+    background: #3fdc18;
+}
+a[title*='ah']{
+    background: #d63031;
+}
+
+
+
+/*{=======(| and ^)
+==========================}*/
+
+div[class|='child']{
+    background: #0a0dcf;
+    width: 250px;
+    height: 250px;
+}
+div[class^='child']{
+    margin-top: 10px;
+    background: #12cbdc;
+    width: 250px;
+    height: 200px;
+    position: relative;
+}
+div p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*last 3 later of anyb class===Then use dollar symbol($)*/
+div[class$='ice']{
+    background: #c92db7;
+    color: white;
+  
+}
+/*3 later of any class===Then use star symbol(*)*/
+div[class*='est']{
+    background: #53e30a;
+    font-weight: bold;
+    text-shadow: 3px 0px rgb(99, 194, 228);
+}

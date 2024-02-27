@@ -1,0 +1,19 @@
+
+html{
+   /* height: 50%;*/
+}
+body{
+    background: #9cd6e3;
+   /* height:inherit;*/
+}
+
+.perents{
+    background: rgb(178, 227, 156) ;
+    width: 96%;
+    margin: 2% auto;
+    padding: 2%;
+    padding-top: 0.5%;
+    /*height: inherit;*/
+    height: 100%;
+    height: initial;
+}

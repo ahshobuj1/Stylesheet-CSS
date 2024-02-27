@@ -1,0 +1,25 @@
+
+
+h1{
+    background: rgb(13, 222, 90);
+}
+
+h2{
+    background: red;
+display: inline-block;
+display: none;
+}
+
+p{
+    background: green;
+    display: inline-block;
+}
+
+span{
+    background: red;
+    display: block;
+}
+
+a{
+    background: rgb(0, 28, 128);
+}

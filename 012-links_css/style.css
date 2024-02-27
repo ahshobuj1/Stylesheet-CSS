@@ -1,0 +1,52 @@
+a{
+    color-scheme: blue ;
+    font-size: 50px;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+}   
+    
+a:visited{
+    color: rgb(129, 11, 11);
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color: rgb(73, 244, 116);
+    font-size: 70px;
+}
+
+a:focus{
+   background-color: rgb(198, 13, 219);
+}
+
+a.btn{
+    color: white;
+    background: black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 17px;
+    font-family: sans-serif;
+
+    border-radius: 55px;
+    border: 2px solid black;
+
+}
+/*
+a.btn:visited{
+    color: #100f0f;
+    background: hwb(0 100% 0%);
+}*/
+
+a.btn:active{
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.892);
+    
+}
+
+p{
+    text-align: center;
+}

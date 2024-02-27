@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+#perent{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.child{
+    background: #2c3e50;
+    width: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/*nth-selector*/
+
+.child:first-child{
+    background: #1abc9c;
+}
+.child:last-child{
+    background: #3498db;
+}
+.child:nth-child(1){
+    color: black;
+}
+.child:nth-child(10){
+    font-size: 20px;
+    color:bisque;
+}
+.child:nth-child(5){
+    background-color: #9b59b6;
+}
+.child:nth-last-child(3){
+    background:#e74c3c ;
+}
+.child:nth-child(odd){
+    text-shadow: 5px 5px 0 #26cc10;
+    font-size: 17px;
+}
+.child:nth-child(even){
+    background: #27e506;
+}
+div:nth-child(3){
+    color: #e74c3c;
+}
+.child:nth-child(n){
+    border: 1px solid #9b59b6;
+}
+.child:nth-child(4n){
+    color: rgb(240, 47, 8);
+}
+.child:nth-child(3n+4){
+    border-radius: 30px;
+}
+
+/*Form style*/
+
+form{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+input[type='text']{
+    height: 40px;
+    padding: 8px;
+    border-radius: 5px;
+    font-style: italic;
+}
+input[type='button']{
+    height: 60px;
+    width: 80px;
+    font-style: italic;
+    font-weight: bold;
+    background: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: 0.3s;
+    display: none;
+}
+
+input:not(:placeholder-shown) + input[type='button']{
+    display: inline-block;
+}
